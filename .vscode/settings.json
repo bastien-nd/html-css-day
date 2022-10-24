@@ -4,4 +4,5 @@
   "editor.fontSize": 26,
   "editor.fontFamily": "Space Mono",
   "workbench.colorTheme" : "Bluloco Dark Italic",
+  "editor.fontLigatures": false
 }
