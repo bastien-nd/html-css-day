@@ -90,3 +90,14 @@ body {
   grid-row-start: 1;
   grid-row-end: 4;
 }
+
+#grades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1.2rem;
+  background-color: antiquewhite;
+  border: 2px solid red;
+  border-radius: 0.8rem;
+}

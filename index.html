@@ -1,119 +1,148 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0"/>
     <title>HTML CSS Journey</title>
-    <link rel="stylesheet" href="./main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet"
+          href="./main.css"/>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com"/>
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+            rel="stylesheet"
     />
-  </head>
-  <body>
-    <header>
-      <h1 id="html-css-day">HTML CSS Day</h1>
-      <p>Une journée pour découvrir le HTML et CSS</p>
-    </header>
+</head>
+<body>
+<header>
+    <h1 id="html-css-day">HTML CSS Day</h1>
+    <p>Une journée pour découvrir le HTML et CSS</p>
+
+    <div id="grades">
+        <label for="grade-1">Votre première note</label>
+        <input
+                id="grade-1"
+                name="grade-1"
+                type="number"
+                min="1"
+                max="6"
+                step=".5"
+        />
+        <label for="grade-2">Votre seconde note</label>
+        <input
+                id="grade-2"
+                name="grade-1"
+                type="number"
+                min="1"
+                max="6"
+                step=".5"
+        />
+        <h2>Ma moyenne : <span id="average">5</span></h2>
+    </div>
+</header>
 
 
+<section id="ma-grid">
+    <div id="sidebar"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div id="le-dernier-element">
 
-    <section id="ma-grid">
-        <div id="sidebar"></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div id="le-dernier-element">
-                
-    <section id="product-list">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
-        </div>
-    </section>
+        <section id="product-list">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    </div>
+</section>
 
-    <main>
-      <div class="flex-articles">
+<main>
+    <div class="flex-articles">
         <article>
-          <h2>Découverte HTML</h2>
-          <p>
-            Le html est <strong class="red-bg">gras</strong> le langage qui
-            permet <i>en italic</i> de créer des pages web.
-          </p>
+            <h2>Découverte HTML</h2>
+            <p>
+                Le html est <strong class="red-bg">gras</strong> le langage qui
+                permet <i>en italic</i> de créer des pages web.
+            </p>
         </article>
         <article>
-          <h2>Qu'est ce qu'un tag HTML</h2>
-          <p>Le tage html per...</p>
-          <ul>
-            <li>element</li>
-            <li>fsdf</li>
-          </ul>
-          <ol class="red-bg">
-            <li>fdsfds</li>
-          </ol>
+            <h2>Qu'est ce qu'un tag HTML</h2>
+            <p>Le tage html per...</p>
+            <ul>
+                <li>element</li>
+                <li>fsdf</li>
+            </ul>
+            <ol class="red-bg">
+                <li>fdsfds</li>
+            </ol>
         </article>
-      </div>
-      <article>
+    </div>
+    <article>
         <h2>Découverte HTML</h2>
         <p>Le html est le langage qui permet de créer des pages web.</p>
-      </article>
-      <article>
+    </article>
+    <article>
         <h2>Qu'est ce qu'un tag HTML</h2>
         <p>Le tage html per...</p>
-      </article>
-    </main>
-    <footer>
-      <!-- HTML form -->
-      <form action="" method="post">
+    </article>
+</main>
+<footer>
+    <!-- HTML form -->
+    <form action=""
+          method="post">
         <fieldset>
-          <label for="email-contact-form">Votre adresse mail</label>
-          <input
-            id="email-contact-form"
-            name="email"
-            type="email"
-            required
-            maxlength="50"
-            placeholder="Votre email ici"
-          /><br />
-          <label for="name-contact-form">Nom et Prénom</label>
-          <input
-            id="name-contact-form"
-            name="name-contact-form"
-            type="text"
-            maxlength="50"
-          /><br />
+            <label for="email-contact-form">Votre adresse mail</label>
+            <input
+                    id="email-contact-form"
+                    name="email"
+                    type="email"
+                    required
+                    maxlength="50"
+                    placeholder="Votre email ici"
+            /><br/>
+            <label for="name-contact-form">Nom et Prénom</label>
+            <input
+                    id="name-contact-form"
+                    name="name-contact-form"
+                    type="text"
+                    maxlength="50"
+            /><br/>
         </fieldset>
 
         <label for="content-contact-form">Votre demande</label>
         <textarea
-          name="content-contact-form"
-          id="content-contact-form"
-          cols="30"
-          rows="5"
-          placeholder="Votre demande ici"
+                name="content-contact-form"
+                id="content-contact-form"
+                cols="30"
+                rows="5"
+                placeholder="Votre demande ici"
         ></textarea>
-        <input type="submit" value="Soumettre" />
-      </form>
-    </footer>
+        <input type="submit"
+               value="Soumettre"/>
+    </form>
+</footer>
 
-    <script src="./main.js"></script>
-  </body>
+<script src="./main.js"></script>
+</body>
 </html>
