@@ -31,3 +31,9 @@ function pass(avg) {
 
 pass(average(notes_maudelin))
 pass(average(notes_leo))
+
+let tab = [5]
+
+tab.push(6)
+console.log(tab.join('-'));
+

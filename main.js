@@ -1,0 +1,1 @@
+console.log('bonjour depuis le navigateur')
